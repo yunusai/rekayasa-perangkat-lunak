@@ -1,0 +1,36 @@
+Untuk memindahkan database dari satu komputer ke komputer lain menggunakan PHPMyAdmin, Anda dapat mengikuti langkah-langkah berikut:
+Eksport (mendownload file database):
+
+Buka PHPMyAdmin di komputer sumber (komputer dengan database yang ingin dipindahkan).
+
+Pilih database yang ingin Anda pindahkan dari panel sebelah kiri.
+
+Klik pada tab "Ekspor" di menu atas.
+
+Pastikan semua tabel yang ingin Anda pindahkan telah dipilih. Jika tidak, pilih tabel yang diinginkan atau pilih opsi "Pilih Semua".
+
+Pilih format ekspor yang diinginkan, misalnya SQL. Anda juga dapat memilih opsi lain sesuai kebutuhan.
+
+Pilih opsi "Simpan sebagai file" dan beri nama file yang sesuai.
+
+Klik pada tombol "Ekspor" untuk memulai proses ekspor. File SQL akan diunduh ke komputer Anda.
+
+Import(menggunakan file database):
+
+Salin file SQL yang telah diunduh ke komputer tujuan (komputer yang akan menjadi tujuan database yang dipindahkan).
+
+Buka PHPMyAdmin di komputer tujuan.
+
+Buat database baru di komputer tujuan jika belum ada.
+
+Pilih database yang baru dibuat dari panel sebelah kiri.
+
+Klik pada tab "Impor" di menu atas.
+
+Klik pada tombol "Pilih file" dan cari file SQL yang telah Anda salin ke komputer tujuan.
+
+Pastikan format ekspor yang dipilih di langkah 5 sesuai dengan format file yang diimpor.
+
+Klik pada tombol "Impor" untuk memulai proses impor. PHPMyAdmin akan mengimpor struktur dan data dari file SQL ke database yang telah Anda pilih.
+
+Setelah proses selesai, database akan dipindahkan ke komputer tujuan.

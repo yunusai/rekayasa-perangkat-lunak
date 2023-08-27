@@ -1,0 +1,20 @@
+Nama = SiPeta(Sistem Pemesanan Tiket Pesawat)
+Fungsional = 
+Login dan Registrasi(mas Gatot Ifal)
+Cetak E-Tiket dan Nota Pembayaran(mas Agus)
+Pencarian dan Pemilihan Penerbangan(Aku)
+
+DB = 
+Customer = data registrasi(id_ctmr, nama_ctmr, no_hp, no_ktp, username, password)
+Log_Registrasi = kapan registrasi
+Log_Transaksi = kapan beli/pesan dan pemesanan tiket(id_ctmr, id_tiket, id_transaksi, tanggal_beli, no_kursi)
+Pesanan_Tiket = Data Tiket
+
+Halaman = 
+Home
+Pesan Tiket
+Transaksi
+
+Role = 
+Admin(data registrasi dan log registrasi, data transaksi(login dan logout, pesanan tiket) dan Log_Transaksi, Register tiket, laporan)
+Customer(Halaman home, pemesanan tiket, catatan pemesanan, login dan logout, registrasi)
